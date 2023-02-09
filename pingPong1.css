@@ -1,0 +1,88 @@
+h1 {
+	text-align: center;
+	user-select: none;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+#ball {
+	position: absolute;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background: black;
+	left: 0px;
+	top: 0px;
+}
+#player1 {
+	position: absolute;
+	width: 20px;
+	height: 200px;
+	background: #8243D6;
+	border: 2px solid rgba(0,0,200,0.6);
+	border-radius: 50px;
+	left: 0px;
+	top: 0px;
+}
+
+#player2 {
+	position: absolute;
+	width: 20px;
+	height: 200px;
+	background: #8243D6;
+	border: 2px solid rgba(0,0,200,0.6);
+	border-radius: 50px;
+	left: 0px;
+	top: 0px;
+}
+
+.count1 {
+	font-size:  72px;
+	position:  absolute;
+
+}
+
+.count2 {
+	font-size:  72px;
+	position:  absolute;
+	right:  10px;
+
+}
+
+.startButton {
+	position:  absolute;
+	left: 100px;
+}
+
+#stStart {
+  font-family: 'helvetica neue', helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid rgba(0,0,200,0.6);
+  background: rgba(0,0,200,0.3);
+  color: rgba(0,0,200,0.6);
+  box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+  cursor:pointer;
+  position: absolute;
+  left: 200px;
+} 
+
+#stStart:link { color: blue; }          /* Непосещённые ссылки */
+#stStart:visited { color: purple; }     /* Посещённые ссылки */
+#stStart:hover { background: yellow; }  /* Ссылки при наведении */
+#stStart:active { color: red; }         /* Активные ссылки */
+
+body {
+			background-image: url(img/wood.png);
+			background-repeat: no-repeat;
+			background-position: center;
+		}
